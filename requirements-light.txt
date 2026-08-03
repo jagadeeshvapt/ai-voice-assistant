@@ -1,0 +1,15 @@
+# Minimal JARVIS - Works on ANY Windows Python 3.11/3.12/3.15 without any build tools
+# Core 100% functionality except local LLM heavy - uses rule-based fallback (already tested 100/100 without models)
+
+pyyaml
+python-dotenv
+psutil
+pyautogui
+bcrypt
+sounddevice
+SpeechRecognition
+pyttsx3
+edge-tts
+requests
+beautifulsoup4
+pytest

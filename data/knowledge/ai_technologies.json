@@ -1,0 +1,10 @@
+{
+  "title": "AI Technologies - Build Full AI Systems",
+  "topics": {
+    "local_llm": "Local LLM: llama.cpp + GGUF model (Qwen2, Llama3, Mistral). Run offline, no API. Use: Python llama-cpp-python, 8GB RAM for 2B model, 16GB for 7B. Prompt = system + context + user. Fine-tune with LoRA for custom knowledge.",
+    "voice": "Voice AI: STT = faster-whisper (local), TTS = Piper (local, natural voice), Wake = openWakeWord (local). Pipeline: Mic → Wake → Record → STT → LLM → TTS. All offline, <1 sec latency with tiny models.",
+    "autonomous_agent": "Autonomous agent: Goal → Plan → Execute → Reflect loop. Tools: file, browser, code, system. Use: ReAct prompt (Reason + Act), add memory, add self-reflection. Example: Goal 'Build portfolio website' → Plan steps → Execute each tool → Verify.",
+    "computer_vision": "Vision: OpenCV for camera, YOLO for object detection (local), Tesseract OCR for text reading, CLIP for image understanding. All offline with ONNX models.",
+    "build_jarvis": "To build JARVIS like Iron Man: 1) Audio stack offline 2) LLM local 3) Tools registry safe 4) Memory SQLite 5) Vision OpenCV 6) UI PySide6 7) Pack as tray app + auto-start. See ARCHITECTURE.md."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Medical General Knowledge - Not a Doctor Disclaimer",
+  "disclaimer": "I am NOT a doctor. For serious issues, consult healthcare professional immediately. This is educational only.",
+  "topics": {
+    "general_health": "Health = Nutrition + Exercise + Sleep + Mental health. Water 2-3L/day, 7-8hr sleep, 150min exercise/week. Balanced diet: veggies, protein, whole grains, less sugar/oil.",
+    "first_aid": "First aid: CPR (30 chest compressions + 2 breaths), bleeding → pressure, burn → cool water 20min, not ice, fracture → immobilize, don't move spine injury.",
+    "mental_health": "Mental health = physical health. Stress management: Deep breathing 4-7-8, meditation, exercise, talk to trusted person. If severe anxiety/depression >2 weeks, seek professional help - it's strength, not weakness.",
+    "common_symptoms": "Fever = infection likely. Headache + fever + stiff neck = urgent. Chest pain + sweating = emergency. Always: symptoms alone not diagnosis, need doctor examination + tests."
+  }
+}

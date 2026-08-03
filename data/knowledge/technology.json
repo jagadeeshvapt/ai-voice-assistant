@@ -1,0 +1,9 @@
+{
+  "title": "Technology - Full Stack",
+  "topics": {
+    "ai": "AI = Machine makes human-like decisions. ML = learns from data. Deep Learning = neural networks. LLMs = text prediction. Use: Python + PyTorch/TensorFlow + HuggingFace.",
+    "cloud": "Cloud = AWS/Azure/GCP. Services: Compute (EC2), Storage (S3), DB (RDS), AI. Learn one cloud deeply.",
+    "networking": "Networking: OSI layers, TCP/IP, DNS, HTTP/HTTPS, VPN. Tools: Wireshark, ping, traceroute.",
+    "latest": "2024-2026 trends: Generative AI, LLMs local (llama.cpp), Edge AI, Quantum computing early, Rust for system programming."
+  }
+}

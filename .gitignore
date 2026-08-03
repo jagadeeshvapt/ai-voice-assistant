@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+venv/
+.env
+.env.local
+*.db
+*.sqlite
+*.sqlite3
+
+# JARVIS data (ignore generated content, keep structure)
+data/memory.json
+data/jarvis.db
+data/audit.log
+data/jarvis.log
+data/*.jpg
+data/*.png
+data/*.log
+data/*.wav
+data/*.mp3
+data/captures/
+data/logs/*
+!data/logs/.gitkeep
+# Ignore faces content but keep folder
+data/faces/*
+!data/faces/.gitkeep
+!data/.gitkeep
+!assets/.gitkeep
+workspace/*
+!workspace/.gitkeep
+
+# Models - large files ignored, keep structure
+models/stt/*
+models/tts/*
+models/llm/*
+models/wakeword/*
+!models/stt/.gitkeep
+!models/tts/.gitkeep
+!models/llm/.gitkeep
+!models/wakeword/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Audio temp
+*.mp3.tmp
+*.wav.tmp
+tmp/

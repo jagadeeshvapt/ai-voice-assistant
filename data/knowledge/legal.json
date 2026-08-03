@@ -1,0 +1,11 @@
+{
+  "title": "Legal Knowledge - Indian Law Basics - Not a Lawyer",
+  "disclaimer": "Not a lawyer. For actual legal matters, consult advocate. This is educational.",
+  "topics": {
+    "indian_law": "Indian legal system: Constitution supreme. IPC = crimes, CrPC = procedure, CPC = civil. Rights: Fundamental rights (Article 12-35). Police cannot arrest without reason, you have right to know reason.",
+    "cyber_law": "Cyber law India: IT Act 2000. Hacking Sec 66, Identity theft 66C, Privacy violation 66E, Publishing obscene 67. If cyber fraud: report at cybercrime.gov.in within 24hrs, call 1930.",
+    "contracts": "Contract = Agreement + Enforceable by law. Valid contract needs: Offer, Acceptance, Consideration, Capacity, Consent, Legal object. Always written > oral, read fine print.",
+    "property": "Property: Check title deed 30 years, encumbrance certificate, sale deed registered, mutation. Don't pay full without registration.",
+    "consumer_rights": "Consumer rights: Right to safety, information, choice, heard, redressal, education. If cheated: Consumer forum, online at consumerhelpline.gov.in"
+  }
+}

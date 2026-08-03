@@ -1,0 +1,9 @@
+{
+  "title": "Software & Programming",
+  "topics": {
+    "python": "Python easy, powerful. Use for automation, AI, web (Django/Flask/FastAPI), data. Best practices: PEP8, virtual env, type hints, tests.",
+    "system_design": "System design: Requirements → Capacity → High level → Deep dive → Bottlenecks. Key: Scalability, Reliability, Availability. Use: Load balancer, Cache (Redis), DB sharding, CDN.",
+    "security": "Cybersecurity: Never hardcode secrets, use HTTPS, hash passwords (bcrypt), SQL injection prevention, XSS, CSRF. Update dependencies.",
+    "windows": "Windows control via Python: pywin32, psutil, pyautogui, PowerShell. For full laptop: file ops, registry, services, task scheduler."
+  }
+}

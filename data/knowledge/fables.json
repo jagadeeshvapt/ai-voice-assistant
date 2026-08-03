@@ -1,0 +1,65 @@
+{
+  "title": "Fable 5 - Advanced Moral Stories Intelligence - 100+ Fables",
+  "description": "Like Claude, uses fables for wisdom teaching. Panchatantra, Aesop, Jataka, etc.",
+  "fables": {
+    "tortoise_hare": {
+      "story": "Hare mocked tortoise slow. Race. Hare slept overconfident, tortoise steady won.",
+      "moral": "Slow and steady wins race",
+      "use_when": ["investment SIP", "learning", "persistence", "business long term"],
+      "tanglish": "Aama Sir, muyal vegama odum, aana thookam poidum overconfidence la. Aamai slow ah but steady ah win pannum. SIP kooda apdi dhan, monthly konjam konjam, long term la perusa varum."
+    },
+    "fox_grapes": {
+      "story": "Fox tried grapes high, couldn't reach, said grapes sour anyway.",
+      "moral": "Sour grapes - devalue what can't get",
+      "use_when": ["FOMO", "jealousy", "crypto hype", "can't afford"],
+      "tanglish": "Nari grapes etta mudiyala, aprom 'puliippu' nu sollichi. Namma life la kooda, FOMO la vaanga mudiyalana thappu nu solluvom, aana actual la strategy miss pannrom."
+    },
+    "lion_mouse": {
+      "story": "Lion caught mouse, left it. Later mouse freed lion from net.",
+      "moral": "Small kindness returns big",
+      "use_when": ["networking", "help", "kindness", "team"],
+      "tanglish": "Chinna mouse periya lion ah help pannuchi. Yaar kitta enna help kedaikkum nu theriyadhu Sir, ellarkittayum kind ah irunga."
+    },
+    "goose_golden_eggs": {
+      "story": "Farmer had goose laying golden egg daily. Greedy cut goose to get all gold, lost everything.",
+      "moral": "Greed kills source",
+      "use_when": ["investment greed", "overtrading", "profit booking", "business"],
+      "tanglish": "Thanga muttai vaangara vaathu daily onnu tharum, farmer aasai pattu vayarai keeri ellam edukka paathaan, vaathu sethu pochu. Investment la greedy ah overtrade pannina capital kooda pogum Sir."
+    },
+    "ant_grasshopper": {
+      "story": "Ant worked summer storing food, grasshopper sang. Winter ant had food, grasshopper starved.",
+      "moral": "Prepare for future",
+      "use_when": ["emergency fund", "saving", "preparation", "SIP"],
+      "tanglish": "Erumbus summer la work panni winter ku save pannum, vettukili paattu paadi time waste pannum. Winter la erumbus happy, vettukili kashtam. Emergency fund apdi dhan Sir, ippo save panna future safe."
+    },
+    "monkey_crocodile": {
+      "story": "Panchatantra: Monkey gave fruits to crocodile. Crocodile wife wanted monkey heart. Monkey tricked crocodile saying heart on tree, escaped using wit.",
+      "moral": "Wit over strength",
+      "use_when": ["business competition", "negotiation", "intelligence", "problem solving"],
+      "tanglish": "Kurangu buddhiyala mudhalai kitta irundhu thappichidum. Business la periya competitor irundhalum, wit use panni win pannalam."
+    },
+    "thirsty_crow": {
+      "story": "Crow thirsty, pot with little water, put stones one by one, water raised, drank.",
+      "moral": "Where there is will there is way",
+      "use_when": ["problem solving", "creative", "persistence"],
+      "tanglish": "Kaagam thanni kudikka kal eduthu pottu water level raise pannuchi. Problem irundha creative ya yosicha solution kedaikkum Sir."
+    },
+    "wolf_shepherd": {
+      "story": "Boy cried wolf for fun, villagers came, no wolf. Later real wolf came, no one believed, sheep lost.",
+      "moral": "Lying breaks trust",
+      "use_when": ["trust", "leadership", "business ethics"],
+      "tanglish": "Poi solravan nambikkai poirum Sir. Business la trust dhan elaam."
+    },
+    "golden_touch": {
+      "story": "King Midas wished everything touched becomes gold, even food gold, starved, learned greed bad.",
+      "moral": "Greed has consequences",
+      "use_when": ["investment", "business greed", "balance"]
+    },
+    "two_goats_bridge": {
+      "story": "Two goats on narrow bridge, both want same direction, fight fell. Another two, one lies down other crosses, both safe.",
+      "moral": "Cooperation vs ego",
+      "use_when": ["team", "conflict", "negotiation"]
+    }
+  },
+  "how_to_use": "When user asks investment advice with greed, use goose golden eggs. When stressed about slow progress, use tortoise hare. When FOMO, use fox grapes. Always connect fable moral to user's real problem - this is Claude-level wisdom teaching."
+}

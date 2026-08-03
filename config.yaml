@@ -1,0 +1,193 @@
+# JARVIS v5.0 - Production 100/100 - Hybrid Offline+Online + Safe Default + Full Access via Flag
+# For production: safe default. For full laptop: python app.py --full-access
+
+app:
+  name: Jarvis
+  offline_only: true  # true = strict offline by default (safe), false = hybrid online+offline
+  language: tanglish
+  wake_word: jarvis
+  version: 5.0.0
+  debug: false
+  text_mode_default: false
+  full_access: false  # false = safe default production, true = full C:/ D:/ - OR use --full-access flag
+  human_like: true
+  autonomous_agent: true
+
+audio:
+  input_device: default
+  output_device: default
+  sample_rate: 16000
+  silence_timeout_seconds: 2
+  max_recording_seconds: 15
+  energy_threshold: 4000
+  pause_threshold: 0.8
+
+models:
+  stt: models/stt/whisper
+  stt_engine: auto
+  tts: models/tts/piper
+  tts_engine: auto  # auto = online: edge-tts, offline: piper
+  tts_voice_en: en_US-ryan-medium
+  tts_voice_ta: ta_IN-hfc_female-medium
+  llm: models/llm/qwen2-1.5b-instruct.gguf
+  llm_engine: auto  # auto = online: openai if key, offline: llama.cpp
+  wakeword: models/wakeword/jarvis.onnx
+  wakeword_engine: openwakeword
+
+security:
+  require_confirmation_for_delete: true
+  require_confirmation_for_messages: true
+  require_confirmation_for_shutdown: true
+  require_confirmation_for_system: true
+  require_pin_for_admin_actions: true
+  allow_shell: false
+  pin: "1234"
+  # SAFE DEFAULT FOR PRODUCTION 100/100
+  # For full laptop: python app.py --full-access OR set full_access: true above
+  allowed_folders:
+    - C:/Users/${USER}/Documents
+    - C:/Users/${USER}/Desktop
+    - ./workspace
+    - ./data
+  blocked_folders:
+    - C:/Windows
+    - C:/Program Files
+    - C:/Users/${USER}/AppData
+    - /etc
+    - /root
+    - /usr/bin
+  # FULL ACCESS EXAMPLE (uncomment to enable full, OR use --full-access flag):
+  # allowed_folders: [C:/, D:/, E:/, ./, ./workspace, ./data]
+  # blocked_folders: []
+
+memory:
+  database: data/jarvis.db
+  memory_json: data/memory.json
+  remember_commands: true
+  encrypt_sensitive_data: false
+  max_history: 500
+  knowledge_feeds: true
+  empathy_enabled: true
+  self_learning: true
+
+devices:
+  android_enabled: false
+  smart_home_enabled: false
+  vision_enabled: false
+  camera_index: 0
+
+language:
+  preferred: tanglish
+  normalize_tanglish: true
+  translate_tamil_script: true
+  human_like: true
+  empathy: true
+  personality: jarvis_human
+  claude_level: true
+  fable_mythos: true
+
+tools:
+  applications: true
+  windows: true
+  files: true
+  browser: true
+  media: true
+  system: true
+  keyboard_mouse: true
+  screenshots: true
+  developer: true
+  knowledge_domains: true
+  investment: true
+  business: true
+  medical: true
+  legal: true
+  ai_tech: true
+  autonomous: true
+  self_learning: true
+
+human_brain:
+  thinking_mode: human_like
+  emotional_intelligence: true
+  empathy_level: high
+  self_awareness: true
+  continuous_learning: true
+  autonomous_planning: true
+  claude_level: true
+  fable_mythos: true
+  knowledge_domains:
+    - investment
+    - business
+    - software
+    - technology
+    - medical
+    - legal
+    - police
+    - court
+    - ai_technologies
+    - psychology
+
+knowledge:
+  feeds_enabled: true
+  auto_update_local: true
+  domains:
+    - investment
+    - business
+    - software
+    - technology
+    - medical
+    - legal
+    - police
+    - court
+    - ai_technologies
+    - fables
+    - mythos
+    - claude_intelligence
+
+ui:
+  tray_enabled: true
+  dashboard: pyside6
+  notifications: true
+  quiet_hours:
+    start: "22:00"
+    end: "07:00"
+
+scheduler:
+  enabled: true
+  check_interval_seconds: 5
+
+quick_commands:
+  - volume up
+  - volume down
+  - volume 40
+  - mute
+  - lock screen
+  - open browser
+  - take screenshot
+  - pause music
+  - what time is it
+  - enna time
+  - chrome open pannu
+  - volume kammi pannu
+
+permissions:
+  level0: [read, status, time, search, knowledge]
+  level1: [open_app, play_media, volume, screenshot, create_note, business_advice, tech_info]
+  level2: [delete_file, move_file, install, close_all, send_message, investment_advice]
+  level3: [shutdown, restart, format, admin, door_lock]
+
+autonomous_agent:
+  enabled: true
+  max_steps: 10
+  self_reflection: true
+  proactive_suggestions: true
+  goal_oriented: true
+  multi_tasking: true
+
+online:
+  enabled: false  # true = hybrid online+offline, false = strict offline
+  stt_fallback: google  # online STT: google, offline: faster-whisper
+  tts_fallback: edge   # online TTS: edge-tts natural, offline: piper
+  llm_fallback: openai # online LLM: openai gpt-4o-mini if key, offline: llama.cpp
+  weather_api: openweathermap
+  search_engine: duckduckgo
+  check_internet: true

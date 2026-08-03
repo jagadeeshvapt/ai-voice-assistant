@@ -1,0 +1,29 @@
+{
+  "title": "Mythos 5 - World Mythology Intelligence - Greek, Indian, Norse, Egyptian, Panchatantra",
+  "description": "Like Claude, uses mythos for deep cultural wisdom and archetypes",
+  "mythologies": {
+    "greek": {
+      "sisyphus": {"story": "Sisyphus tricked gods, punished to roll boulder uphill forever, it falls each time", "lesson": "Futile effort without strategy is suffering. Need smart work + purpose, not endless loop. If you're stuck in loop (like overtrading), change strategy.", "use_when": ["stuck in loop", "futile hard work", "need strategy"]},
+      "hercules_12_labors": {"story": "Hercules 12 impossible labors - Nemean lion, Hydra, etc. Each needs different skill", "lesson": "Big goal broken into 12 labors. Perseverance + learning each skill. For business/startup: each challenge teaches you.", "use_when": ["big goal", "perseverance", "startup challenges"]},
+      "icarus": {"story": "Icarus flew too high with wax wings near sun, wings melted fell", "lesson": "Ambition without caution = downfall. For investment: don't leverage too high. Balance ambition with risk management.", "use_when": ["overconfidence", "leverage", "risk"]},
+      "prometheus": {"story": "Prometheus stole fire for humans, gave knowledge, punished but humanity progressed", "lesson": "Knowledge sharing is power but has cost. For AI: open source helps humanity.", "use_when": ["knowledge sharing", "AI ethics"]}
+    },
+    "indian": {
+      "gita_detachment": {"story": "Krishna to Arjuna: Karmanye vadhikaraste - Do your duty, without attachment to result. Focus on action, not anxiety of result", "lesson": "Best for stress, anxiety, investment outcome anxiety, business fear. Do best action, don't over-worry result. This is core emotional management.", "use_when": ["stress", "anxiety", "investment anxiety", "business fear", "attachment to result"]},
+      "ram_dharma": {"story": "Ram left kingdom for 14 years to keep father's promise, endured hardship but kept dharma, eventually became ideal king", "lesson": "Short term sacrifice for long term dharma/reputation. In business: ethics over quick profit builds lasting brand.", "use_when": ["ethics", "dharma", "long term thinking", "sacrifice"]},
+      "krishna_leela": {"story": "Krishna as child and diplomat, playful but strategic", "lesson": "Balance playfulness + strategy. For leadership: be approachable but smart.", "use_when": ["leadership", "balance"]},
+      "panchatantra_overall": {"story": "Panchatantra 5 books: Mitra Labha, Suhrid Bheda, etc - animal stories teaching niti", "lesson": "Ancient Indian wisdom for practical life - how to make friends, avoid enemies, use wit. Useful for business, relationships.", "use_when": ["business", "relationships", "wit"]}
+    },
+    "norse": {
+      "thor_hammer": {"story": "Mjolnir only worthy can lift - worthiness = responsibility", "lesson": "Power needs worthiness. Leadership, money, AI power needs responsibility.", "use_when": ["power", "responsibility", "leadership"]},
+      "odin_sacrifice": {"story": "Odin sacrificed one eye for wisdom", "lesson": "Wisdom has cost. Investment in learning needs sacrifice (time, money) but worth.", "use_when": ["learning", "sacrifice for knowledge"]}
+    },
+    "egyptian": {
+      "ma_at": {"story": "Ma'at goddess of balance, truth, cosmic order vs chaos", "lesson": "Life needs balance - work/life, risk/reward, ambition/ethics. When unbalanced, chaos.", "use_when": ["balance", "work-life"]}
+    },
+    "japanese": {
+      "daruma": {"story": "Daruma doll falls 7 times, rises 8 times - persistence", "lesson": "Resilience - fall 7 rise 8. Startup, investment loss, failure is part of path.", "use_when": ["failure", "resilience", "startup"]}
+    }
+  },
+  "how_to_use": "Use mythos to give depth beyond fable. For stress: Gita detachment. For futile loop: Sisyphus. For greed: Midas/Icarus. For leadership: Ram dharma + Thor worthiness. Connect ancient wisdom to modern problem - Claude-level cultural intelligence."
+}

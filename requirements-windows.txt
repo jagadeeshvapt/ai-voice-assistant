@@ -1,0 +1,64 @@
+# JARVIS Windows Fixed - No C++ Build Tools Needed - Works on Python 3.11/3.12/3.15
+# Light version - core features work, heavy AI optional
+
+# Core - must have
+pyyaml==6.0.1
+python-dotenv==1.0.0
+psutil==5.9.6
+pyautogui==0.9.54
+
+# Security - prebuilt wheels
+bcrypt==4.0.1
+cryptography==41.0.7
+
+# Audio - Use sounddevice (has wheels) instead of pyaudio
+sounddevice
+soundfile
+SpeechRecognition==3.10.4
+pyttsx3==2.90
+edge-tts==6.1.10
+openai>=1.30.0
+
+# Light STT/TTS - avoid heavy builds
+# faster-whisper has wheels, ok
+faster-whisper==1.0.3
+openwakeword==0.5.1
+piper-tts==1.2.0
+
+# UI - light
+pystray==0.19.5
+pillow==10.2.0
+# PySide6 optional - heavy, skip if fails
+# PySide6==6.6.0
+
+# Memory
+apscheduler==3.10.4
+
+# Tools - light, no heavy builds
+opencv-python==4.8.1.78
+numpy
+beautifulsoup4==4.12.2
+requests==2.31.0
+wikipedia==1.4.0
+pyjokes==0.6.0
+duckduckgo-search==5.3.0
+
+# API Server - light
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# Tests - light
+pytest==7.4.3
+
+# OPTIONAL - Heavy, comment out if fails on Windows without Visual Studio:
+# Uncomment these ONLY if you have Visual C++ Build Tools installed:
+# scikit-learn==1.3.2
+# sentence-transformers==2.2.2
+# llama-cpp-python==0.2.79
+# numpy==1.24.3
+# scipy
+# playwright
+# selenium
+# pywin32
+# pycaw
+# comtypes

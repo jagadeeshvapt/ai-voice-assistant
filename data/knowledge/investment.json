@@ -1,0 +1,12 @@
+{
+  "title": "Investment Knowledge - Offline",
+  "disclaimer": "Educational only, not financial advice. Do own research.",
+  "topics": {
+    "stocks": "Stocks = company ownership. Types: large-cap (safe), mid-cap, small-cap (high risk high return). Fundamental analysis: PE ratio <20 good, Debt/Equity <1, ROE >15%. Technical: RSI, moving averages. Indian: NSE, BSE, Nifty50, Sensex. Strategy: SIP, Diversify 15-20 stocks across sectors, long term 5+ years.",
+    "mutual_funds": "Mutual funds pool money. Types: Equity (high risk), Debt (low), Hybrid. SIP = monthly investing, rupee cost averaging. Check: expense ratio <1%, past 5yr return, fund manager. ELSS for 80C tax saving.",
+    "crypto": "Crypto highly volatile, high risk. Bitcoin, Ethereum main. Only invest 1-5% portfolio if high risk appetite. Use hardware wallet. Avoid meme coins without research.",
+    "gold": "Gold = hedge against inflation. Sovereign Gold Bonds best (2.5% interest + gold value). Physical gold has making charges 10-20%. Digital gold via platforms.",
+    "real_estate": "Real estate = long term, illiquid. Check location, builder reputation, legal docs, rental yield >2-3%. Don't put all money here.",
+    "risk_management": "Never invest emergency fund (6 months expenses). Diversify: 50% equity, 20% debt, 15% gold, 10% real estate, 5% crypto (example). Stop loss: -15% to -20%. Take profit: +30% partial."
+  }
+}
